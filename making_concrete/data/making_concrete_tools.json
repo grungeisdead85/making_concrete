@@ -1,0 +1,46 @@
+{
+    "module": {
+        "prefix": "MAKING_CONCRETE_",
+        "name": "Making Concrete",
+        "version": "2.0"
+    },
+    "tools": [
+        {
+            "key": "CEMENT",
+            "name": "cement",
+            "name_plural": "cement",
+            "tint": "sawdust",
+            "graphics": {
+                "fields": {
+                    "texpos_item": "PAGE:ITEM_CONSTRUCTION:2:3",
+                    "texpos_stone": {
+                        "source": "PAGE:ITEM_CONSTRUCTION:2:3",
+                        "fill": 7
+                    },
+                    "texpos_wood": {
+                        "source": "PAGE:ITEM_CONSTRUCTION:2:3",
+                        "fill": 7
+                    },
+                    "texpos_metal": {
+                        "source": "PAGE:ITEM_CONSTRUCTION:2:3",
+                        "fill": 7
+                    },
+                    "texpos_glass": {
+                        "source": "PAGE:ITEM_CONSTRUCTION:2:3",
+                        "fill": 7
+                    }
+                }
+            },
+            "value": 5,
+            "tile": 250,
+            "size": 2500,
+            "material_size": 1,
+            "capacity": 0,
+            "tool_use": [],
+            "flags": {
+                "hard_mat": true,
+                "no_default_job": true
+            }
+        }
+    ]
+}
